@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+reader {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+.link-reader {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;    
+    margin-right: 32px;
+}
+
+.button-reader {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+ img {
+    margin: 163px 0 0 121px;
+    display: inline-block
+}
+
+div {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+    
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-right: 801px;
+    width: 582px;
+    height: 164px;
+    margin-top: 342px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 47px;
+    margin-top: 55px;
+}
+.button-learn{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+@media screen and (max-width: 500px) {
+        
+ h1 {
+        font-size: 30px;
+        line-height: 30px;
+        width: 278px;
+        height: 60px;
+        text-align: center;
+        margin: 80px 55px 0 -20px;
+       }
+   p {
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        height: 165px;
+        text-align: center;
+        margin: 29px 0 0 -35px;
+
+   }   
+    img {
+        position: absolute;
+        margin: 490px 39px 22px 39px;
+        width: 312px;
+    }
+    .link-reader {
+        display: none;
+      }
+    .button-reader {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 100%;
+        margin-top: 20px;
+        margin-left: 230px;
+    }
+
+    .button-learn {
+           margin-top: 26px;    
+           margin-left: 60px;   
+    }
+}
